@@ -1,0 +1,10 @@
+run:
+  concurrency: 1
+  timeout: 5m
+
+linters:
+  enable-all: true
+  disable:
+    - gomnd
+    - gocognit
+    - wsl
